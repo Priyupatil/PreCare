@@ -1,0 +1,41 @@
+.about{
+  background:rgb(224, 218, 253);
+}
+
+.about .content .box{
+  margin:3rem 0;
+}
+
+.about .content .box h3{
+  font-size: 2.5rem;
+  color:var(--blue);
+}
+
+.about .content .box h3 i{
+  padding: 0 1rem;
+  color:#5c4db1;
+}
+
+.about .content .box p{
+  font-size: 1.5rem;
+  padding-left: 6rem;
+  color: #666(228, 196, 255);
+  font-style:  "Helvetica Neue", Arial,;
+}
+.about .content p{
+  font-size: 1.5rem;
+
+}
+
+
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  padding:0rem;
+  padding-top: 4rem;
+  color:var(--black);
+}
+
+.heading span{
+  color:var(--violet);
+}

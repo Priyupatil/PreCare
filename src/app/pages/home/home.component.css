@@ -1,0 +1,67 @@
+.home .content h1{
+  font-size: 4rem;
+  color:var(--black);
+  text-align: left;
+
+
+}
+
+.home .content h1 span{
+  color: #5C4DB1;
+
+
+}
+
+.home .content h3{
+  font-size: 4rem;
+  color:var(--black);
+
+
+}
+.home .img{
+  position:relative;
+  right: 90px;
+
+}
+
+.home{
+
+}
+
+button{
+  height:2.5rem;
+  width: 10rem;
+  background: #FFBF67;
+  color:black;
+  font-size: 1rem;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  cursor: pointer;
+  position: relative;
+  right: 190px;
+  z-index: 0;
+  overflow: hidden;
+  margin:1rem 0;
+}
+
+.button::before{
+  content: '';
+  position: absolute;
+  top: -100%; left: 0;
+  height:100%;
+  width: 100%;
+  background-color: #666;
+  z-index: -1;
+  transition: .2s linear;
+}
+
+.button:hover:before{
+  top: 0%;
+}
+
+.button:hover{
+  box-shadow: .1rem .5rem var(--violet),
+              0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+
